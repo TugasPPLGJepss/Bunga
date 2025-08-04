@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;   
+    gap: 2.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(95, 6, 124);
+    color: white;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: rgb(240, 182, 106);
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pencapaian</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #0d1b2a, #1b263b, #0a0f1c);
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: rgba(13, 27, 42, 0.95);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #91e5f6;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(145, 229, 246, 0.3);
+    }
+
+    .achievements {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 12px #62cbe7;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #ffffff;
+      margin-top: 0;
+      font-size: 1.2em;
+    }
+
+    .card p {
+      color: #cfd8dc;
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #91e5f6;
+      color: #0d1b2a;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 0 10px #91e5f6;
+      transition: 0.3s ease;
+    }
+
+    .back-btn:hover {
+      background-color: #62cbe7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pencapaian Saya ✨</h1>
+  </header>
+
+  <div class="container">
+    <div class="achievements">
+      <div class="card">
+        <h3>🏅 Juara 1 Lomba Desain Poster</h3>
+        <p>Menjuarai lomba poster lingkungan hidup tingkat sekolah tahun 2023.</p>
+      </div>
+
+      <div class="card">
+        <h3>💻 Selesai Kursus Web Developer</h3>
+        <p>Menyelesaikan kursus HTML, CSS, dan JavaScript selama 3 bulan dengan hasil memuaskan.</p>
+      </div>
+
+      <div class="card">
+        <h3>📷 Membuat Portofolio Digital</h3>
+        <p>Membangun portofolio online dengan berbagai karya desain dan proyek pribadi.</p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Website Pribadi Pertama</h3>
+        <p>Berhasil merancang dan membuat website pribadi sendiri dari awal menggunakan VS Code.</p>
+      </div>
+
+      <div class="card">
+        <h3>🎨 Pameran Karya Desain</h3>
+        <p>Ikut serta dalam pameran sekolah dan menampilkan karya digital dan ilustrasi kreatif.</p>
+      </div>
+
+      <div class="card">
+        <h3>🧠 Konsisten Belajar Mandiri</h3>
+        <p>Belajar secara otodidak lewat internet, YouTube, dan platform belajar seperti CodePolitan & Dicoding.</p>
+      </div>
+    </div>
+
+    <a href="index.html" class="back-btn">← Kembali ke Beranda</a>
+  </div>
+
+</body>
+</html>
