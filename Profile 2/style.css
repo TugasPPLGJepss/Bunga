@@ -10,13 +10,14 @@ nav{
 nav ul{
     display: flex;
     list-style: none;   
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 nav a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
 header{
     background-color: rgb(95, 6, 124);
     color: white;
@@ -24,5 +25,13 @@ header{
 }
 
 nav a:hover {
-    color: rgb(240, 182, 106);
+    color: rgb(245, 162, 52);
+}
+
+.hero{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 138, 234);
+    padding: 2rem;
 }
